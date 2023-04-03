@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 public class CourseService 
 {
 	  private List<Course> courses = new ArrayList<>( Arrays.asList(
-			   new Course("1" , "java" ,"This is java course"),
-			   new Course("2" , "javaScript" ,"This is javaScript course"),
-			   new Course("3" , "Android" ,"This is android course")
+			   new Course("1" , "java" ,"This is java course","java",1),
+			   new Course("2" , "javaScript" ,"This is javaScript course","python",2),
+			   new Course("3" , "Android" ,"This is android course","mysql",3)
 			   )); 
 	  
 	  public List<Course> getAllCourses(){
